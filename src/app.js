@@ -2,7 +2,7 @@
 const express = require("express")
 const cors= require("cors")
 const noteModel = require("./models/note.model")
-
+const path = require("path")
 
 const app = express()
 
